@@ -387,6 +387,27 @@ def test_current_cleaning_mode_accepts_enums() -> None:
     )
 
 
+@pytest.mark.parametrize("water_code", range(221, 251))
+@pytest.mark.parametrize("fan_code, expected", [(102, CleaningMode.VAC_AND_MOP), (105, CleaningMode.MOP)])
+def test_slide_raw_codes_classify(water_code: int, fan_code: int, expected: CleaningMode) -> None:
+    """Classify every app slider position, including intermediate values."""
+    status_trait = _create_cleaning_mode_status_trait(is_water_slide_mode_supported=True)
+    status_trait.fan_power = fan_code
+    status_trait.water_box_mode = water_code
+    status_trait.mop_mode = 300
+    assert status_trait.current_cleaning_mode == expected
+
+
+@pytest.mark.parametrize("water_code", [220, 251, 999])
+def test_slide_unknown_codes(water_code: int) -> None:
+    """Do not invent a mode for out-of-range firmware codes."""
+    status_trait = _create_cleaning_mode_status_trait(is_water_slide_mode_supported=True)
+    status_trait.fan_power = 102
+    status_trait.water_box_mode = water_code
+    status_trait.mop_mode = 300
+    assert status_trait.current_cleaning_mode is None
+
+
 def test_current_cleaning_mode_none() -> None:
     """Test that incomplete status values do not classify a cleaning mode."""
     status_trait = _create_cleaning_mode_status_trait()
@@ -483,7 +504,7 @@ def test_get_cleaning_mode_parameters_qrevo_edge_2() -> None:
     assert get_cleaning_mode_parameters(CleaningMode.MOP, status_trait._device_features_trait) == [
         {
             "fan_power": VacuumModes.OFF.code,
-            "water_box_mode": WaterModes.PURE_WATER_FLOW_MIDDLE.code,
+            "water_box_mode": 235,
             "mop_mode": CleanRoutes.STANDARD.code,
         }
     ]
@@ -532,14 +553,14 @@ def test_get_cleaning_mode_parameters_water_slide_device() -> None:
     assert get_cleaning_mode_parameters(CleaningMode.VAC_AND_MOP, status_trait._device_features_trait) == [
         {
             "fan_power": VacuumModes.BALANCED.code,
-            "water_box_mode": WaterModes.PURE_WATER_FLOW_MIDDLE.code,
+            "water_box_mode": 235,
             "mop_mode": CleanRoutes.STANDARD.code,
         }
     ]
     assert get_cleaning_mode_parameters(CleaningMode.MOP, status_trait._device_features_trait) == [
         {
             "fan_power": VacuumModes.OFF.code,
-            "water_box_mode": WaterModes.PURE_WATER_FLOW_MIDDLE.code,
+            "water_box_mode": 235,
             "mop_mode": CleanRoutes.STANDARD.code,
         }
     ]

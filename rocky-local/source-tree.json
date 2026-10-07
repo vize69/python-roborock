@@ -1,0 +1,386 @@
+[
+  {
+    "name": "__init__.py",
+    "path": "homeassistant/components/roborock/__init__.py",
+    "sha": "ddeaf3849c98d58acd39697e4e3afac752c9849b",
+    "size": 10645,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/__init__.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/__init__.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/ddeaf3849c98d58acd39697e4e3afac752c9849b",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/__init__.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/__init__.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/ddeaf3849c98d58acd39697e4e3afac752c9849b",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/__init__.py"
+    }
+  },
+  {
+    "name": "binary_sensor.py",
+    "path": "homeassistant/components/roborock/binary_sensor.py",
+    "sha": "dc96a3ae369c6d51075e0c83d6f965d820d170cf",
+    "size": 10888,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/binary_sensor.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/binary_sensor.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/dc96a3ae369c6d51075e0c83d6f965d820d170cf",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/binary_sensor.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/binary_sensor.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/dc96a3ae369c6d51075e0c83d6f965d820d170cf",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/binary_sensor.py"
+    }
+  },
+  {
+    "name": "button.py",
+    "path": "homeassistant/components/roborock/button.py",
+    "sha": "be069dec2c6f00bcb53375dc2710e031308c1648",
+    "size": 12105,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/button.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/button.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/be069dec2c6f00bcb53375dc2710e031308c1648",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/button.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/button.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/be069dec2c6f00bcb53375dc2710e031308c1648",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/button.py"
+    }
+  },
+  {
+    "name": "config_flow.py",
+    "path": "homeassistant/components/roborock/config_flow.py",
+    "sha": "15212beb5002583844908c44166dc831c196e9a2",
+    "size": 11922,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/config_flow.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/config_flow.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/15212beb5002583844908c44166dc831c196e9a2",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/config_flow.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/config_flow.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/15212beb5002583844908c44166dc831c196e9a2",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/config_flow.py"
+    }
+  },
+  {
+    "name": "const.py",
+    "path": "homeassistant/components/roborock/const.py",
+    "sha": "89994809b8af9718731b1b076bfa03c9a9c51563",
+    "size": 1996,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/const.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/const.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/89994809b8af9718731b1b076bfa03c9a9c51563",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/const.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/const.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/89994809b8af9718731b1b076bfa03c9a9c51563",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/const.py"
+    }
+  },
+  {
+    "name": "coordinator.py",
+    "path": "homeassistant/components/roborock/coordinator.py",
+    "sha": "cf621229294db6b2bd7ba2c3bc54a5694ef70033",
+    "size": 28277,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/coordinator.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/coordinator.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/cf621229294db6b2bd7ba2c3bc54a5694ef70033",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/coordinator.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/coordinator.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/cf621229294db6b2bd7ba2c3bc54a5694ef70033",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/coordinator.py"
+    }
+  },
+  {
+    "name": "diagnostics.py",
+    "path": "homeassistant/components/roborock/diagnostics.py",
+    "sha": "ebed19c8f85b36a064242b0e50fcab847575d557",
+    "size": 1028,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/diagnostics.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/diagnostics.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/ebed19c8f85b36a064242b0e50fcab847575d557",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/diagnostics.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/diagnostics.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/ebed19c8f85b36a064242b0e50fcab847575d557",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/diagnostics.py"
+    }
+  },
+  {
+    "name": "entity.py",
+    "path": "homeassistant/components/roborock/entity.py",
+    "sha": "4e704ac3dc5b6e229f4944d043815f4d128500f0",
+    "size": 5145,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/entity.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/entity.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/4e704ac3dc5b6e229f4944d043815f4d128500f0",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/entity.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/entity.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/4e704ac3dc5b6e229f4944d043815f4d128500f0",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/entity.py"
+    }
+  },
+  {
+    "name": "icons.json",
+    "path": "homeassistant/components/roborock/icons.json",
+    "sha": "83b55b22f9ba75e3331478d1c807f0dc6165c42e",
+    "size": 4285,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/icons.json?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/icons.json",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/83b55b22f9ba75e3331478d1c807f0dc6165c42e",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/icons.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/icons.json?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/83b55b22f9ba75e3331478d1c807f0dc6165c42e",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/icons.json"
+    }
+  },
+  {
+    "name": "image.py",
+    "path": "homeassistant/components/roborock/image.py",
+    "sha": "be3ea5629b3b84a6dac2929f16354bd2596ad514",
+    "size": 10072,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/image.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/image.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/be3ea5629b3b84a6dac2929f16354bd2596ad514",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/image.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/image.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/be3ea5629b3b84a6dac2929f16354bd2596ad514",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/image.py"
+    }
+  },
+  {
+    "name": "manifest.json",
+    "path": "homeassistant/components/roborock/manifest.json",
+    "sha": "b73813c343f54ff027fff3d88e03cbb245e015be",
+    "size": 550,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/manifest.json?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/manifest.json",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/b73813c343f54ff027fff3d88e03cbb245e015be",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/manifest.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/manifest.json?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/b73813c343f54ff027fff3d88e03cbb245e015be",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/manifest.json"
+    }
+  },
+  {
+    "name": "models.py",
+    "path": "homeassistant/components/roborock/models.py",
+    "sha": "e6dabffae317b6871daf01fce558482538cf1b2b",
+    "size": 2248,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/models.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/models.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/e6dabffae317b6871daf01fce558482538cf1b2b",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/models.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/models.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/e6dabffae317b6871daf01fce558482538cf1b2b",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/models.py"
+    }
+  },
+  {
+    "name": "number.py",
+    "path": "homeassistant/components/roborock/number.py",
+    "sha": "e05884d945b5dfa00946c6c0e70ae283af170186",
+    "size": 7702,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/number.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/number.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/e05884d945b5dfa00946c6c0e70ae283af170186",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/number.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/number.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/e05884d945b5dfa00946c6c0e70ae283af170186",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/number.py"
+    }
+  },
+  {
+    "name": "quality_scale.yaml",
+    "path": "homeassistant/components/roborock/quality_scale.yaml",
+    "sha": "b557297da9617c3646d4147add1195157621673c",
+    "size": 1837,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/quality_scale.yaml?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/quality_scale.yaml",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/b557297da9617c3646d4147add1195157621673c",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/quality_scale.yaml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/quality_scale.yaml?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/b557297da9617c3646d4147add1195157621673c",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/quality_scale.yaml"
+    }
+  },
+  {
+    "name": "roborock_storage.py",
+    "path": "homeassistant/components/roborock/roborock_storage.py",
+    "sha": "be3fb0eb473a28c9833455ebf306c2596525c6ee",
+    "size": 3512,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/roborock_storage.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/roborock_storage.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/be3fb0eb473a28c9833455ebf306c2596525c6ee",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/roborock_storage.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/roborock_storage.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/be3fb0eb473a28c9833455ebf306c2596525c6ee",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/roborock_storage.py"
+    }
+  },
+  {
+    "name": "select.py",
+    "path": "homeassistant/components/roborock/select.py",
+    "sha": "49136c1f6e9871a4e31fce55d5e0a0840ced2e8f",
+    "size": 22360,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/select.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/select.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/49136c1f6e9871a4e31fce55d5e0a0840ced2e8f",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/select.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/select.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/49136c1f6e9871a4e31fce55d5e0a0840ced2e8f",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/select.py"
+    }
+  },
+  {
+    "name": "sensor.py",
+    "path": "homeassistant/components/roborock/sensor.py",
+    "sha": "1a5219ec32303f09125f428e6a5b9ce5570f7f22",
+    "size": 27765,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/sensor.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/sensor.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/1a5219ec32303f09125f428e6a5b9ce5570f7f22",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/sensor.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/sensor.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/1a5219ec32303f09125f428e6a5b9ce5570f7f22",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/sensor.py"
+    }
+  },
+  {
+    "name": "services.py",
+    "path": "homeassistant/components/roborock/services.py",
+    "sha": "1a66c09703bb7522e65c5cb6ab880028a98c486e",
+    "size": 2397,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/services.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/services.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/1a66c09703bb7522e65c5cb6ab880028a98c486e",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/services.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/services.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/1a66c09703bb7522e65c5cb6ab880028a98c486e",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/services.py"
+    }
+  },
+  {
+    "name": "services.yaml",
+    "path": "homeassistant/components/roborock/services.yaml",
+    "sha": "5e8d1f7e8f107a71409c181f3936ce95dd4869d3",
+    "size": 1147,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/services.yaml?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/services.yaml",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/5e8d1f7e8f107a71409c181f3936ce95dd4869d3",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/services.yaml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/services.yaml?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/5e8d1f7e8f107a71409c181f3936ce95dd4869d3",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/services.yaml"
+    }
+  },
+  {
+    "name": "strings.json",
+    "path": "homeassistant/components/roborock/strings.json",
+    "sha": "4c2d8c9dd96e4fe0b5f9ded2daeae1d2095fd22f",
+    "size": 32587,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/strings.json?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/strings.json",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/4c2d8c9dd96e4fe0b5f9ded2daeae1d2095fd22f",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/strings.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/strings.json?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/4c2d8c9dd96e4fe0b5f9ded2daeae1d2095fd22f",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/strings.json"
+    }
+  },
+  {
+    "name": "switch.py",
+    "path": "homeassistant/components/roborock/switch.py",
+    "sha": "657acd20ed594bb4225a1a9dbbee4f206eb2b94b",
+    "size": 17788,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/switch.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/switch.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/657acd20ed594bb4225a1a9dbbee4f206eb2b94b",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/switch.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/switch.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/657acd20ed594bb4225a1a9dbbee4f206eb2b94b",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/switch.py"
+    }
+  },
+  {
+    "name": "time.py",
+    "path": "homeassistant/components/roborock/time.py",
+    "sha": "33b854a4e176088aba6a45af477bb2a32ccda783",
+    "size": 6354,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/time.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/time.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/33b854a4e176088aba6a45af477bb2a32ccda783",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/time.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/time.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/33b854a4e176088aba6a45af477bb2a32ccda783",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/time.py"
+    }
+  },
+  {
+    "name": "util.py",
+    "path": "homeassistant/components/roborock/util.py",
+    "sha": "130e367cbe05ec5098b22880f613032fc23349cb",
+    "size": 3307,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/util.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/util.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/130e367cbe05ec5098b22880f613032fc23349cb",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/util.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/util.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/130e367cbe05ec5098b22880f613032fc23349cb",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/util.py"
+    }
+  },
+  {
+    "name": "vacuum.py",
+    "path": "homeassistant/components/roborock/vacuum.py",
+    "sha": "baf1c0214b3188d083e82ab090a3df317d3b9595",
+    "size": 35111,
+    "url": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/vacuum.py?ref=2026.10.0b3",
+    "html_url": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/vacuum.py",
+    "git_url": "https://api.github.com/repos/home-assistant/core/git/blobs/baf1c0214b3188d083e82ab090a3df317d3b9595",
+    "download_url": "https://raw.githubusercontent.com/home-assistant/core/2026.10.0b3/homeassistant/components/roborock/vacuum.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/home-assistant/core/contents/homeassistant/components/roborock/vacuum.py?ref=2026.10.0b3",
+      "git": "https://api.github.com/repos/home-assistant/core/git/blobs/baf1c0214b3188d083e82ab090a3df317d3b9595",
+      "html": "https://github.com/home-assistant/core/blob/2026.10.0b3/homeassistant/components/roborock/vacuum.py"
+    }
+  }
+]

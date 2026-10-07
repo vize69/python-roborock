@@ -105,7 +105,7 @@ class StatusTrait(StatusV2, common.V1TraitMixin, TraitUpdateListener):
         if self.water_box_mode is None:
             return None
         if self._device_features_trait.is_water_slide_mode_supported:
-            return get_water_slide_mode_name(self.water_box_mode)
+            return get_water_slide_mode_name(self.water_box_mode) or self.water_mode_mapping.get(self.water_box_mode)
         return self.water_mode_mapping.get(self.water_box_mode)
 
     @property

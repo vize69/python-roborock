@@ -176,7 +176,10 @@ def get_water_modes(features: DeviceFeatures) -> list[WaterModes]:
     """Get the valid water modes for the device - also known as 'water flow' or 'water level'"""
     # Water slide mode supports a separate set of water flow codes.
     if features.is_water_slide_mode_supported:
-        return list(WATER_SLIDE_MODE_MAPPING.values())
+        supported_modes = list(WATER_SLIDE_MODE_MAPPING.values())
+        if features.is_customized_clean_supported:
+            supported_modes.append(WaterModes.CUSTOMIZED)
+        return supported_modes
 
     supported_modes = [WaterModes.OFF]
     if features.is_mop_shake_module_supported:
@@ -218,7 +221,10 @@ def get_water_mode_mapping(features: DeviceFeatures) -> dict[int, str]:
     explicit code mapping to preserve those slide-specific codes.
     """
     if features.is_water_slide_mode_supported:
-        return {code: mode.value for code, mode in WATER_SLIDE_MODE_MAPPING.items()}
+        mapping = {code: mode.value for code, mode in WATER_SLIDE_MODE_MAPPING.items()}
+        if features.is_customized_clean_supported:
+            mapping[WaterModes.CUSTOMIZED.code] = WaterModes.CUSTOMIZED.value
+        return mapping
     return {mode.code: mode.value for mode in get_water_modes(features)}
 
 

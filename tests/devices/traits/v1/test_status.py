@@ -545,19 +545,62 @@ def test_get_cleaning_mode_parameters_water_slide_device() -> None:
     ]
 
 
-def test_cleaning_mode_options_water_slide_device() -> None:
-    """Water-slide devices should not expose unsupported custom or smart water modes."""
+@pytest.mark.parametrize("custom_supported", [False, True])
+def test_cleaning_mode_options_water_slide_device(custom_supported: bool) -> None:
+    """Expose customized cleaning only when advertised; keep smart mode excluded."""
     status_trait = _create_cleaning_mode_status_trait(
         is_water_slide_mode_supported=True,
-        is_customized_clean_supported=True,
+        is_customized_clean_supported=custom_supported,
         is_smart_clean_mode_set_supported=True,
     )
 
-    assert status_trait.cleaning_mode_options == [
+    expected_modes = [
         CleaningMode.VACUUM,
         CleaningMode.VAC_AND_MOP,
         CleaningMode.MOP,
     ]
+    if custom_supported:
+        expected_modes.append(CleaningMode.CUSTOM)
+    assert status_trait.cleaning_mode_options == expected_modes
+    assert (WaterModes.CUSTOMIZED in status_trait.water_mode_options) == custom_supported
+    assert (204 in status_trait.water_mode_mapping) == custom_supported
+    assert 207 not in status_trait.water_mode_mapping
+
+
+async def test_water_slide_custom_mode_readback_and_command(mock_rpc_channel: AsyncMock) -> None:
+    """Keep the reported a328 custom triplet consistent with selectable options."""
+    status_trait = _create_cleaning_mode_status_trait(is_water_slide_mode_supported=True)
+    status_trait._rpc_channel = mock_rpc_channel  # type: ignore[assignment]
+    status_trait.fan_power = 106
+    status_trait.water_box_mode = 204
+    status_trait.mop_mode = 302
+
+    assert status_trait.current_cleaning_mode == CleaningMode.CUSTOM
+    assert status_trait.current_cleaning_mode in status_trait.cleaning_mode_options
+    assert status_trait.water_mode_name == WaterModes.CUSTOMIZED.value
+    assert status_trait.water_mode_mapping[204] == WaterModes.CUSTOMIZED.value
+    assert status_trait.water_mode_mapping[235] == "medium"
+
+    await status_trait.set_cleaning_mode(CleaningMode.CUSTOM)
+
+    mock_rpc_channel.send_command.assert_called_once_with(
+        RoborockCommand.SET_CLEAN_MOTOR_MODE,
+        params=[{"fan_power": 106, "water_box_mode": 204, "mop_mode": 302}],
+    )
+
+
+async def test_water_slide_custom_mode_without_capability(mock_rpc_channel: AsyncMock) -> None:
+    """Do not send customized cleaning commands without the feature flag."""
+    status_trait = _create_cleaning_mode_status_trait(
+        is_water_slide_mode_supported=True, is_customized_clean_supported=False
+    )
+    status_trait._rpc_channel = mock_rpc_channel  # type: ignore[assignment]
+    status_trait.water_box_mode = 204
+
+    assert status_trait.water_mode_name is None
+    with pytest.raises(RoborockUnsupportedFeature):
+        await status_trait.set_cleaning_mode(CleaningMode.CUSTOM)
+    mock_rpc_channel.send_command.assert_not_called()
 
 
 def test_current_cleaning_mode_gentle_not_mop_without_pure_mop() -> None:
@@ -582,8 +625,10 @@ def test_water_slide_mode_mapping() -> None:
     status_trait = StatusTrait(cast(DeviceFeaturesTrait, features), region="eu")
 
     assert features.is_water_slide_mode_supported
+    assert features.is_customized_clean_supported
     assert status_trait.water_mode_mapping == {
         200: "off",
+        204: "custom",
         221: "slight",
         225: "low",
         230: "gentle",
@@ -601,6 +646,7 @@ def test_water_slide_mode_mapping() -> None:
         "moderate",
         "high",
         "extreme",
+        "custom",
     ]
 
     status_trait.water_box_mode = 225
